@@ -1,0 +1,19 @@
+{
+  "name": "cypress_assignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "qa": "npx cypress open --config watchForFileChanges=false --e2e --browser chrome"
+  },
+  "author": "Keerthichandra",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/KeerthichandraChikka/CypressAssignment.git"
+  }
+}

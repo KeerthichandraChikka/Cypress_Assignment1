@@ -1,0 +1,13 @@
+{ 
+    "singupPage" : "https://automationexercise.com/signup",
+    "nameSignup" : "Keerthichandra",
+    "emailSignup" : "Keerthichandra123@gmail.com",
+    "passwordSignup" : "Test_123#",
+    "fristName" : "firstName",
+    "lastName" : "LastName",
+    "city" : "Hyderabad",
+    "state" : "Telangana",
+    "ZIP" : "500001",
+    "Address" : "Sample Address",
+    "MobileNumber" : "1234567899"
+}
