@@ -46,7 +46,7 @@ describe("User signup" , function(){
       });
     });
 
-    describe("User trying to register again", function(){
+    describe.only("User trying to register again", function(){
 
       it("Navigate to home page", function (){
         cy.visit('/');
@@ -57,16 +57,13 @@ describe("User signup" , function(){
         cy.wait(5000);
         HomePage.clickSignupLoginButton();
         HomePage.typeName(this.data.nameSignup);
-        HomePage.typeSignupEmail();
+        HomePage.typeSignupEmail(this.data.emailSignup);
         HomePage.clickSignupButton()
         HomePage.elements.txtAlreadyRegistered().should('have.text','Email Address already exist!');
       });
     })
 
-
-
-
-    describe("Verify that mandatory fields are required for sign up", function(){
+    describe.only("Verify that mandatory fields are required for sign up", function(){
 
       it("Navigate to home page", function (){
         cy.visit('/');
